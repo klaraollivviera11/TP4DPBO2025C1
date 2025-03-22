@@ -3,35 +3,36 @@ Saya Klara Ollivviera Augustine Gunawan dengan NIM 2306205 mengerjakan soal Tuga
 
 # Desain Program
 Program merupakan form "Data Mahasiswa" yang mengimplementasikan CRUD. Program terdiri dari 2 class yaitu class Mahasiswa dan class Menu. Dengan detail berikut:
-1. Class Mahasiswa
-   Class ini merepresentasikan data mahasiswa, dengan atribut berikut:
-   - NIM
-   - Nama
-   - Jenis Kelamin
-   - Status
-   Di dalam class mahasiswa berisikan method getter dan setter dari masing-masing atribut.
+## 1. Class Mahasiswa
+Class ini merepresentasikan data mahasiswa, dengan atribut berikut:
+- NIM -> Nomor Induk Mahasiswa
+- Nama -> Nama mahasiswa
+- Jenis Kelamin -> Jenis kelamin mahasiswa
+- Status -> Status perkuliahan mahasiswa
+Di dalam class mahasiswa berisikan method getter dan setter dari masing-masing atribut.
 
-2. Class Menu
-   Class ini bertanggung jawab untuk tampilan dan interaksi pengguna dengan aplikasi. Class ini menggunakan Java Swing untuk membuat GUI (Graphical User Interface).
-   Komponen dalam Class Menu:
-   - Panel Utama (JPanel): Menampung semua elemen UI.
-   - Tabel Mahasiswa (JTable): Menampilkan daftar mahasiswa.
-   - Form Input (JTextField, JComboBox, JRadioButton): Digunakan untuk mengisi dan mengedit data mahasiswa.
-   - Tombol Aksi (JButton):
-     Add/Update: Menambahkan atau memperbarui data mahasiswa.
-     Delete: Menghapus data mahasiswa.
-     Cancel: Membersihkan form input.
+## 2. Class Menu
+Class ini bertanggung jawab untuk tampilan dan interaksi pengguna dengan aplikasi. Class ini menggunakan Java Swing untuk membuat GUI (Graphical User Interface).
 
-   Method-Method dalam Class Menu:
-   - insertData(): Menambahkan data mahasiswa ke dalam list dan memperbarui tabel.
-   - updateData(): Memperbarui data mahasiswa yang dipilih.
-   - deleteData(): Menghapus data mahasiswa dari list.
-   - clearForm(): Mengosongkan semua input form.
-   - setTable(): Mengatur tampilan tabel berdasarkan data yang ada.
-   - getSelectedStatus(): Mengambil nilai status mahasiswa yang dipilih.
-   - populateList(): Mengisi daftar mahasiswa dengan data awal.
+### Komponen dalam Class Menu:
+- Panel Utama (JPanel): Menampung semua elemen UI.
+- Tabel Mahasiswa (JTable): Menampilkan daftar mahasiswa.
+- Form Input (JTextField, JComboBox, JRadioButton): Digunakan untuk mengisi dan mengedit data mahasiswa.
+- Tombol Aksi (JButton):
+  - Add/Update: Menambahkan atau memperbarui data mahasiswa.
+  - Delete: Menghapus data mahasiswa.
+  - Cancel: Membersihkan form input.
 
-3. Desain Form
+### Method-Method dalam Class Menu:
+- insertData(): Menambahkan data mahasiswa ke dalam list dan memperbarui tabel.
+- updateData(): Memperbarui data mahasiswa yang dipilih.
+- deleteData(): Menghapus data mahasiswa dari list.
+- clearForm(): Mengosongkan semua input form.
+- setTable(): Mengatur tampilan tabel berdasarkan data yang ada.
+- getSelectedStatus(): Mengambil nilai status mahasiswa yang dipilih.
+- populateList(): Mengisi daftar mahasiswa dengan data awal.
+
+## 3. Desain Form
 <img width="607" alt="DESAIN FORM" src="https://github.com/user-attachments/assets/d663dd6b-175b-48a8-b92d-4f9c22f12514" />
 
 # Alur Program
