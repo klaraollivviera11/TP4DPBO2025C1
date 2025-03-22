@@ -9,6 +9,7 @@ Class ini merepresentasikan data mahasiswa, dengan atribut berikut:
 - Nama -> Nama mahasiswa
 - Jenis Kelamin -> Jenis kelamin mahasiswa
 - Status -> Status perkuliahan mahasiswa
+
 Di dalam class mahasiswa berisikan method getter dan setter dari masing-masing atribut.
 
 ## 2. Class Menu
